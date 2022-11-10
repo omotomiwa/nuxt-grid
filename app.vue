@@ -85,7 +85,7 @@
       <br />
       <div>
         <span class="item-counter x">All </span
-        ><span class="item-counter x">Oval </span
+        ><span class="item-counter x">{{ userFilterKey }} </span
         ><span class="item-counter x"> items:</span
         ><span class="item-counter x">(6)</span>
       </div>
@@ -120,21 +120,6 @@ export default {
   data: () => ({
     greeting: "Hello World!",
     userFilterKey: "all",
-    buttons: [
-      { id: 1, text: "Oval", value: "Oval" },
-      { id: 2, text: "Round", value: "Round" },
-      { id: 3, text: "Triangle", value: "Triangle" },
-      { id: 4, text: "Square", value: "Square" },
-      { id: 5, text: "Rectangle", value: "Rectangle" },
-    ],
-    colors: [
-      { id: 1, color: "red", value: "red" },
-      { id: 2, color: "blue", value: "blue" },
-      { id: 3, color: "green", value: "green" },
-      { id: 4, color: "yellow", value: "yellow" },
-      { id: 5, color: "cyan", value: "skyblue" },
-      { id: 6, color: "grey", value: "grey" },
-    ],
 
     shapes: [
       {
@@ -358,6 +343,19 @@ export default {
     },
     grey() {
       return this.shapes.filter((e) => e.color === "grey");
+    },
+    showShapes() {
+      if (oval) {
+        return "Oval";
+      } else if (round) {
+        return "Round";
+      } else if (triangle) {
+        return "Triangle";
+      } else if (square) {
+        return "Square";
+      } else {
+        return "Rectangle";
+      }
     },
   },
 };
