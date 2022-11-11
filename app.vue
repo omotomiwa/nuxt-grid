@@ -86,8 +86,8 @@
       <div>
         <span class="item-counter x">All </span
         ><span class="item-counter x">{{ userFilterKey }} </span
-        ><span class="item-counter x"> items:</span
-        ><span class="item-counter x">(6)</span>
+        ><span class="item-counter x"> items: </span
+        ><span class="item-counter x">({{ userFilter.length }})</span>
       </div>
 
       <div class="grid-view">
@@ -207,97 +207,97 @@ export default {
         img: "https://res.cloudinary.com/dl7eouhxf/image/upload/v1667923141/shapes/triangle_blue.jpg",
       },
       {
-        id: 14,
+        id: 15,
         shape: "triangle",
         color: "green",
         img: "https://res.cloudinary.com/dl7eouhxf/image/upload/v1667923382/shapes/triangle_green.png",
       },
       {
-        id: 15,
+        id: 16,
         shape: "triangle",
         color: "yellow",
         img: "https://res.cloudinary.com/dl7eouhxf/image/upload/v1667923529/shapes/triangle_yellow.jpg",
       },
       {
-        id: 16,
+        id: 17,
         shape: "triangle",
         color: "skyblue",
         img: "https://res.cloudinary.com/dl7eouhxf/image/upload/v1667923631/shapes/traingle_skyblue.png",
       },
       {
-        id: 17,
+        id: 18,
         shape: "triangle",
         color: "grey",
         img: "https://res.cloudinary.com/dl7eouhxf/image/upload/v1667923715/shapes/triangle_gray.png",
       },
       {
-        id: 18,
+        id: 19,
         shape: "square",
         color: "red",
         img: "https://res.cloudinary.com/dl7eouhxf/image/upload/v1667923913/shapes/square_red.jpg",
       },
       {
-        id: 19,
+        id: 20,
         shape: "square",
         color: "blue",
         img: "https://res.cloudinary.com/dl7eouhxf/image/upload/v1667924026/shapes/square_blue.jpg",
       },
       {
-        id: 20,
+        id: 21,
         shape: "square",
         color: "green",
         img: "https://res.cloudinary.com/dl7eouhxf/image/upload/v1667924145/shapes/square_green.jpg",
       },
       {
-        id: 21,
+        id: 22,
         shape: "square",
         color: "yellow",
         img: "https://res.cloudinary.com/dl7eouhxf/image/upload/v1667924247/shapes/square_yellow.jpg",
       },
       {
-        id: 21,
+        id: 23,
         shape: "square",
         color: "skyblue",
         img: "https://res.cloudinary.com/dl7eouhxf/image/upload/v1667924341/shapes/square_skyblue.jpg",
       },
       {
-        id: 22,
+        id: 24,
         shape: "square",
         color: "grey",
         img: "https://res.cloudinary.com/dl7eouhxf/image/upload/v1667924442/shapes/square_gray.jpg",
       },
       {
-        id: 23,
+        id: 25,
         shape: "rectangle",
         color: "red",
         img: "https://res.cloudinary.com/dl7eouhxf/image/upload/v1667933541/shapes/rectangle_red.jpg",
       },
       {
-        id: 24,
+        id: 26,
         shape: "rectangle",
         color: "blue",
         img: "https://res.cloudinary.com/dl7eouhxf/image/upload/v1667933641/shapes/rectangle_blue.jpg",
       },
       {
-        id: 25,
+        id: 27,
         shape: "rectangle",
         color: "green",
         img: "https://res.cloudinary.com/dl7eouhxf/image/upload/v1667933812/shapes/rectangle_green.jpg",
       },
       {
-        id: 26,
+        id: 28,
         shape: "rectangle",
         color: "yellow",
         img: "https://res.cloudinary.com/dl7eouhxf/image/upload/v1667933920/shapes/rectangle_yellow.jpg",
       },
       {
-        id: 27,
+        id: 29,
         shape: "rectangle",
         color: "skyblue",
         img: "https://res.cloudinary.com/dl7eouhxf/image/upload/v1667934045/shapes/rectangle_skyblue.png",
       },
       {
-        id: 28,
+        id: 30,
         shape: "rectangle",
         color: "grey",
         img: "https://res.cloudinary.com/dl7eouhxf/image/upload/v1667934121/shapes/rectangle_gray.png",
