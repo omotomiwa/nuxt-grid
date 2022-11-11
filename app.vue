@@ -119,7 +119,7 @@ export default {
   name: "App",
   data: () => ({
     greeting: "Hello World!",
-    userFilterKey: "all",
+    userFilterKey: "available",
 
     shapes: [
       {
@@ -308,7 +308,7 @@ export default {
     userFilter() {
       return this[this.userFilterKey];
     },
-    all() {
+    available() {
       return this.shapes;
     },
     oval() {
